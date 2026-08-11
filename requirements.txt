@@ -1,0 +1,5 @@
+# Python 依赖 (pip install -r requirements.txt)
+# 主程序 aime_telebot.py / report_viewer.py / batch_analyze.py 需要:
+requests>=2.31.0
+python-telegram-bot==22.8
+flask>=3.0.0
