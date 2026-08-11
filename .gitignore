@@ -1,0 +1,41 @@
+# ===== 密钥与凭证 (绝不提交) =====
+ainvest_bot_config.py          # 含真实 Telegram token
+cookie.txt                     # ainvest 游客身份 cookie (换机失效+含会话secret)
+cookie_*.txt                   # 各 guest 身份 cookie
+*.pid
+*.lock
+*.stop
+
+# ===== 数据与日志 (体积大/含隐私, 不提交) =====
+*.db
+*.sqlite
+*.sqlite3
+_logs/
+_archive/
+_cookies_archive/
+*.log
+*.out
+batch_log.txt
+daemon.log
+watchdog.log
+viewer.log
+aime_bot.log
+proxy.log
+browseros.log
+
+# ===== Python =====
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# ===== Node (proxy) =====
+node_modules/
+package-lock.json
+
+# ===== 系统 =====
+.DS_Store
+Thumbs.db
+nul
+ntuser*
